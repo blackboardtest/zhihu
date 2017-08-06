@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "name": "知乎日报",
+  "description": "模仿知乎日报",
+  "keywords": [
+    "zhihu daily"
+  ],
+  "author": {
+    "name": "vimrus",
+    "email": "vimrus.com@gmail.com",
+    "url": "https://github.com/vimrus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vimrus/zhihu"
+  },
+  "bugs": "https://github.com/vimrus/zhihu/issues",
+  "main": "index.js"
+}
