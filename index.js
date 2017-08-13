@@ -1,10 +1,10 @@
-$.getJSON('https://news-at.zhihu.com/api/4/news/latest', function(error, response, data) {
+hubble.getJSON('https://news-at.zhihu.com/api/4/news/latest', function(error, response, data) {
 		data.stories.forEach(function (story) {
 			var url = 'https://news-at.zhihu.com/api/4/news/' + story.id;
 			articles.get('url', url, function(article) {
 				if (article) return;
 
-				$.getJSON(url, function(error, response, data) {
+				hubble.getJSON(url, function(error, response, data) {
 					var article = {
 						title: data.title,
 						content: data.body,
