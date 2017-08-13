@@ -6,8 +6,6 @@ $.getJSON('https://news-at.zhihu.com/api/4/news/latest', function(error, respons
 				if (article) return;
 
 				$.getJSON(url, function(error, response, data) {
-					var html = $(data).find('.content-inner').eq(0);
-
 					var article = {
 						title: title,
 						content: data.body,
