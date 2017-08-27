@@ -1,0 +1,42 @@
+img {
+    vertical-align: middle;
+    color: transparent;
+    font-size: 0;
+}
+.meta {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 16px;
+  color: #b8b8b8;
+}
+.meta .avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.meta .author {
+    color: #444;
+}
+.meta span {
+  color: #444;
+  vertical-align: middle;
+}
+.meta span {
+  color: #999;
+  vertical-align: middle;
+}
+.content {
+    line-height: 1.6em;
+    margin: 10px 0 20px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+.view-more {
+    margin-bottom: 25px;
+    text-align: center;
+}
