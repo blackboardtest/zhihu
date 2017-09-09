@@ -1,5 +1,5 @@
 hubble.getJSON('https://news-at.zhihu.com/api/4/news/latest', function(error, response, data) {
-		data.stories.forEach(function (story) {
+		data.stories.forEach(function(story) {
 			articles.get('key', story.id, function(article) {
 				if (article) return;
 
